@@ -2,7 +2,7 @@ name: PlaytimeRewards
 version: '1.0.0'
 main: com.playtimerewards.PlaytimeRewards
 api-version: '1.21'
-author: YourName
+author: Failxos
 description: Rewards players for time spent on the server via a candle-based GUI.
 
 commands:
