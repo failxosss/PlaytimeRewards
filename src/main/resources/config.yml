@@ -69,7 +69,7 @@ rewards:
 
   reward_2h:
     time_minutes: 120
-    slot: 13
+    slot: 14
     icon:
       material: MAGENTA_CANDLE
       name: "&d2 Hours"
@@ -89,7 +89,7 @@ rewards:
 
   reward_3h:
     time_minutes: 180
-    slot: 14
+    slot: 15
     icon:
       material: LIGHT_BLUE_CANDLE
       name: "&b3 Hours"
@@ -125,7 +125,7 @@ rewards:
       - "give %player% emerald 5"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_6h:
     time_minutes: 360
@@ -149,7 +149,7 @@ rewards:
 
   reward_8h:
     time_minutes: 480
-    slot: 22
+    slot: 23
     icon:
       material: PINK_CANDLE
       name: "&d8 Hours"
@@ -165,11 +165,11 @@ rewards:
       - "give %player% netherite_scrap 1"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_12h:
     time_minutes: 720
-    slot: 23
+    slot: 24
     icon:
       material: GRAY_CANDLE
       name: "&712 Hours"
@@ -186,7 +186,7 @@ rewards:
       - "eco give %player% 500"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_18h:
     time_minutes: 1080
@@ -227,11 +227,11 @@ rewards:
       - "eco give %player% 2000"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_36h:
     time_minutes: 2160
-    slot: 31
+    slot: 32
     icon:
       material: PURPLE_CANDLE
       name: "&536 Hours"
@@ -251,7 +251,7 @@ rewards:
 
   reward_48h:
     time_minutes: 2880
-    slot: 32
+    slot: 33
     icon:
       material: BLUE_CANDLE
       name: "&948 Hours"
@@ -267,7 +267,7 @@ rewards:
       - "give %player% elytra 1"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_60h:
     time_minutes: 3600
@@ -308,11 +308,11 @@ rewards:
       - "give %player% diamond_block 3"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_96h:
     time_minutes: 5760
-    slot: 40
+    slot: 41
     icon:
       material: RED_CANDLE
       name: "&c96 Hours"
@@ -328,11 +328,11 @@ rewards:
       - "eco give %player% 10000"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
-    broadcast: true
+    broadcast: false
 
   reward_120h:
     time_minutes: 7200
-    slot: 41
+    slot: 42
     icon:
       material: BLACK_CANDLE
       name: "&0&l120 Hours"
@@ -349,5 +349,5 @@ rewards:
       - "eco give %player% 25000"
       - "give %player% netherite_block 1"
     message: "&6&lCongratulations! &aYou claimed the final &f%time% &aplaytime reward!"
-    permission: "playtimerewards.claim.120h"
-    broadcast: true
+    permission: ""
+    broadcast: false
