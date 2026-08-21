@@ -125,3 +125,229 @@ rewards:
       - "give %player% emerald 5"
     message: "&aYou claimed the &f%time% &aplaytime reward!"
     permission: ""
+    broadcast: true
+
+  reward_6h:
+    time_minutes: 360
+    slot: 21
+    icon:
+      material: LIME_CANDLE
+      name: "&a6 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: LIME_CANDLE
+      name: "&76 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "give %player% experience_bottle 16"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: false
+
+  reward_8h:
+    time_minutes: 480
+    slot: 22
+    icon:
+      material: PINK_CANDLE
+      name: "&d8 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: PINK_CANDLE
+      name: "&78 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "give %player% netherite_scrap 1"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_12h:
+    time_minutes: 720
+    slot: 23
+    icon:
+      material: GRAY_CANDLE
+      name: "&712 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: GRAY_CANDLE
+      name: "&712 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "give %player% diamond 5"
+      - "eco give %player% 500"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_18h:
+    time_minutes: 1080
+    slot: 29
+    icon:
+      material: LIGHT_GRAY_CANDLE
+      name: "&f18 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: LIGHT_GRAY_CANDLE
+      name: "&718 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "eco give %player% 1000"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: false
+
+  reward_24h:
+    time_minutes: 1440
+    slot: 30
+    icon:
+      material: CYAN_CANDLE
+      name: "&b24 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: CYAN_CANDLE
+      name: "&724 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "give %player% netherite_ingot 1"
+      - "eco give %player% 2000"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_36h:
+    time_minutes: 2160
+    slot: 31
+    icon:
+      material: PURPLE_CANDLE
+      name: "&536 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: PURPLE_CANDLE
+      name: "&736 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "eco give %player% 3000"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: false
+
+  reward_48h:
+    time_minutes: 2880
+    slot: 32
+    icon:
+      material: BLUE_CANDLE
+      name: "&948 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: BLUE_CANDLE
+      name: "&748 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "give %player% elytra 1"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_60h:
+    time_minutes: 3600
+    slot: 38
+    icon:
+      material: BROWN_CANDLE
+      name: "&660 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: BROWN_CANDLE
+      name: "&760 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "eco give %player% 5000"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: false
+
+  reward_72h:
+    time_minutes: 4320
+    slot: 39
+    icon:
+      material: GREEN_CANDLE
+      name: "&272 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: GREEN_CANDLE
+      name: "&772 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "eco give %player% 7500"
+      - "give %player% diamond_block 3"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_96h:
+    time_minutes: 5760
+    slot: 40
+    icon:
+      material: RED_CANDLE
+      name: "&c96 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7Click to claim."
+    claimed_icon:
+      material: RED_CANDLE
+      name: "&796 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this reward."
+    commands:
+      - "eco give %player% 10000"
+    message: "&aYou claimed the &f%time% &aplaytime reward!"
+    permission: ""
+    broadcast: true
+
+  reward_120h:
+    time_minutes: 7200
+    slot: 41
+    icon:
+      material: BLACK_CANDLE
+      name: "&0&l120 Hours"
+      lore:
+        - "&7Reward for &f%time% &7of playtime."
+        - "&7The highest milestone - congratulations!"
+        - "&7Click to claim."
+    claimed_icon:
+      material: BLACK_CANDLE
+      name: "&7120 Hours &a(Claimed)"
+      lore:
+        - "&7You have already claimed this legendary reward."
+    commands:
+      - "eco give %player% 25000"
+      - "give %player% netherite_block 1"
+    message: "&6&lCongratulations! &aYou claimed the final &f%time% &aplaytime reward!"
+    permission: "playtimerewards.claim.120h"
+    broadcast: true
