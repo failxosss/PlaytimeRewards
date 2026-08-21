@@ -1,0 +1,32 @@
+name: PlaytimeRewards
+version: '1.0.0'
+main: com.playtimerewards.PlaytimeRewards
+api-version: '1.21'
+author: YourName
+description: Rewards players for time spent on the server via a candle-based GUI.
+
+commands:
+  playtimerewards:
+    description: Opens the playtime rewards GUI and manages the plugin.
+    usage: /<command> [reload|time|add|reset]
+    aliases: [pt]
+
+permissions:
+  playtimerewards.use:
+    description: Allows opening the rewards GUI.
+    default: true
+  playtimerewards.reload:
+    description: Allows reloading the plugin configuration.
+    default: op
+  playtimerewards.time.others:
+    description: Allows viewing other players' playtime.
+    default: op
+  playtimerewards.add:
+    description: Allows manually adding playtime to a player (debug).
+    default: op
+  playtimerewards.claim.*:
+    description: Allows claiming any reward (wildcard).
+    default: true
+  playtimerewards.admin:
+    description: Full admin access (data reset, etc.).
+    default: op
