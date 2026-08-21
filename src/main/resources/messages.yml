@@ -1,0 +1,29 @@
+# =========================================================
+#  PlaytimeRewards - messages.yml
+#  Color code support via &.
+#  %player% is replaced with the player's name, %prefix% with the prefix.
+#  For another language, just translate the values below -
+#  the keys must stay the same.
+# =========================================================
+
+prefix: "&8[&6PlaytimeRewards&8] &r"
+
+errors:
+  no-permission: "%prefix%&cYou don't have permission to use this command."
+  players-only: "&cThis command can only be used by a player."
+  player-not-found: "%prefix%&cPlayer not found."
+  invalid-number: "%prefix%&cPlease enter a valid number."
+  usage-add: "%prefix%&cUsage: /pt add <player> <minutes>"
+  usage-reset: "%prefix%&cUsage: /pt reset <player>"
+
+commands:
+  reload-success: "%prefix%&aConfiguration reloaded successfully."
+  time-info: "%prefix%&f%player% &7has played &f%hours%h %minutes%min &7(%total_minutes% minutes total)."
+  add-success: "%prefix%&aAdded &f%amount% &aminutes of playtime to &f%player%&a."
+  reset-success: "%prefix%&aData for &f%player% &ahas been reset."
+
+gui:
+  already-claimed: "%prefix%&cYou have already claimed this reward."
+  no-permission: "%prefix%&cYou don't have permission to claim this reward."
+  not-ready: "%prefix%&cYou don't have enough playtime for this reward yet."
+  broadcast-claim: "%prefix%&f%player% &aclaimed the &f%time% &aplaytime reward!"
